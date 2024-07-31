@@ -5,11 +5,11 @@
 class Cnvrgctl < Formula
   desc ""
   homepage "https://github.com/dilerous/cnvrgctl"
-  version "0.0.4"
+  version "0.0.5"
 
   on_macos do
-    url "https://github.com/dilerous/cnvrgctl/releases/download/v0.0.4/cnvrgctl_0.0.4_darwin_all.tar.gz"
-    sha256 "bad9c93d4329c0cea20c4047d37b94dd2350a66ae40607475899d636cf16599a"
+    url "https://github.com/dilerous/cnvrgctl/releases/download/v0.0.5/cnvrgctl_0.0.5_darwin_all.tar.gz"
+    sha256 "040e158ddfdfc042e5008de26b8c71bb1852eb4e034b63e8750e71e15564c23c"
 
     def install
       bin.install "cnvrgctl"
@@ -19,8 +19,8 @@ class Cnvrgctl < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/dilerous/cnvrgctl/releases/download/v0.0.4/cnvrgctl_0.0.4_linux_amd64.tar.gz"
-        sha256 "29b08181e546fb20b4e4deea40a6cc134ccf5a6e1c847daa8f09f8bfe02130ca"
+        url "https://github.com/dilerous/cnvrgctl/releases/download/v0.0.5/cnvrgctl_0.0.5_linux_amd64.tar.gz"
+        sha256 "520a7ff8144a731585980571ba22ebe11fc35c54cf07077e7faef9f5664bd442"
 
         def install
           bin.install "cnvrgctl"
@@ -29,8 +29,8 @@ class Cnvrgctl < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/dilerous/cnvrgctl/releases/download/v0.0.4/cnvrgctl_0.0.4_linux_arm64.tar.gz"
-        sha256 "25e27009a00352423053c6f83d2d039b450a3fd35f797f1c88401d8c53344c26"
+        url "https://github.com/dilerous/cnvrgctl/releases/download/v0.0.5/cnvrgctl_0.0.5_linux_arm64.tar.gz"
+        sha256 "a7e5f125917e1ee12aaca552737ba35e197d0b1ef2f7d94a9625812557f0d91d"
 
         def install
           bin.install "cnvrgctl"
